@@ -1,0 +1,8 @@
+export function solution(estudiantes, deathCount, nuevo) {
+    while (deathCount > 0) {
+      var ahora = estudiantes.pop("");
+      deathCount--; 
+    }
+    var ahorasi=estudiantes.push(nuevo)
+    return estudiantes;
+  }
